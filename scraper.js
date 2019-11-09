@@ -29,6 +29,7 @@ const scrape = async () => {
   });
 
   await browser.close();
+  console.log("Scrape successful");
 };
 
 scrape();
